@@ -103,7 +103,6 @@ h2 {
     height: 40px;
     background-color: #3D444A;
     position: absolute;
-  
     left: 0;
  
 }
@@ -162,27 +161,24 @@ ul.footer-links li {
 .main-text{
     margin-top: 37%;
 }
-
-@media only screen and (min-width: 875px)  {
-
-   .main h1{
-        font-size: 2em;
-}
-
-
-.main p {
-    font-size: 2em;
-}
-
-.main-title {
-    font-size: 3em;
-}
-.main-text {
-    font-size: 4em;
-}
+.our-products li  img{
+   width:63%;
 
 
 }
+.darkmode {
+    background-color: black;
+    color: white;
+    
+  }
+
+
+  .map {
+      margin-top: 23%;
+  }
+  
+
+
 @media only screen and (min-width: 875px)  {
 
     .subhead {
@@ -229,7 +225,49 @@ animation: move 1s infinite alternate;
     font-size: 3em;
 }
 
+.contact-info ul li {
+    margin-top: 21%;
+    margin-left: 8%;
+    display: inline-block;
+ 
 }
+
+
+.contact-info h1 h2  {
+    margin-bottom: 29%;
+    
+}
+    
+.button { 
+    display: inline-block;  
+      border-radius: 4px;  
+      background-color: ;  
+      border: none;  color: #FFFFFF; 
+       text-align: center;  
+       font-size: 28px; 
+        padding: 20px;  
+        width: 200px;  
+        transition: all 0.5s; 
+         cursor: pointer; 
+          margin: 5px;
+          margin-top: 5%;
+          text-decoration: none;
+  
+      }
+      .button {border-radius: 12px;}
+
+
+
+      .main-text .container {
+        margin-top: -33%;
+     }
+
+     .map {
+         margin-top: 5%;
+     }
+  
+}
+
 
 
 
@@ -275,14 +313,16 @@ animation: move 1s infinite alternate;
     nav ul li a {
         color: black;
         background-color: inherit;
-        text-align: right;
         padding: 1em 2em;
     }
     
-
     nav ul li a:hover {
-        background-color: inherit;
+        background-color: royalblue;
+        width: 50%;
+        border-radius: 4px; 
+      
     }
+ 
 
     .our-products{
         margin-top: -5%;
