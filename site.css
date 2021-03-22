@@ -227,11 +227,14 @@ animation: move 1s infinite alternate;
 }
 @media only screen and (min-width: 700px){
 
-    .main-title {
+   .main-title {
       font-size: 3em;
     }
     .main-text{
         font-size: 2em;
+    }
+    .our-products{
+        margin-top: 10%;
     }
 }
 
