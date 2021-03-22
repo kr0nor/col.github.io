@@ -225,9 +225,10 @@ animation: move 1s infinite alternate;
         transform: translateY(20px);
     }
 }
+
 @media only screen and (min-width: 700px){
 
-   .main-title {
+    .main-title {
       font-size: 3em;
     }
     .main-text{
@@ -236,8 +237,10 @@ animation: move 1s infinite alternate;
     .our-products{
         margin-top: 10%;
     }
+    .main-text{
+        margin-top: 12%;
+    }
 }
-
 
 @media only screen and (min-width: 875px)  {
 
