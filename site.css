@@ -225,6 +225,13 @@ animation: move 1s infinite alternate;
         transform: translateY(20px);
     }
 }
+@media only screen and (min-width: 768px){
+
+    .main-title {
+      font-size: 3em;
+    }
+}
+
 
 @media only screen and (min-width: 875px)  {
 
