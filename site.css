@@ -225,7 +225,13 @@ animation: move 1s infinite alternate;
         transform: translateY(20px);
     }
 }
+.main-title{
+    margin-top: 12%;
+}
 
+.our-products{
+    margin-top: 12%;
+}
 @media only screen and (min-width: 700px){
 
     .main-title {
