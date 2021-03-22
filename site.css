@@ -178,6 +178,33 @@ ul.footer-links li {
   }
   
 
+  
+
+  .scroll {
+    width: 20%;
+    animation: move 1s infinite alternate;
+    margin-top: -12%;
+    
+}
+
+.subhead{
+animation: move 1s infinite alternate;
+}
+
+#Logo{
+    width: 20%;
+    animation: move 1s infinite alternate;
+}
+
+
+@keyframes move {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(20px);
+    }
+}
 
 @media only screen and (min-width: 875px)  {
 
