@@ -230,6 +230,9 @@ animation: move 1s infinite alternate;
     .main-title {
       font-size: 3em;
     }
+    .main-text{
+        font-size: 2em;
+    }
 }
 
 
